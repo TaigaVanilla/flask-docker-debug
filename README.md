@@ -14,9 +14,8 @@ Make sure you have the following tools installed on your machine:
 docker-compose up -d --build
 ```
 2. Start the web server
-Navigate to the Remote Explorer tab, right-click the container, and select `Attach in New Window.`
+Navigate to the Remote Explorer tab, right-click the container, and select `Attach in New Window`.
 Ensure the `src` folder is open in the Explorer tab.
 Move to the Run and Debug tab and press the `Start debugging` button, selecting the `Python: Flask` option.
 
-3. Open a browser and go to the following URL:
-Example: http://127.0.0.1:5000
+3. Open a browser and go to the following URL: http://127.0.0.1:5000
