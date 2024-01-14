@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <header>
+        <h1>Welcome to my Flask App!</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <p>This is the home page content.</p>
+    </section>
+
+    <footer>
+        <p>&copy; My Flask App</p>
+    </footer>
+
+{% endblock %}
